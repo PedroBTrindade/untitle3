@@ -6,11 +6,13 @@ public class Main {
         String m="""
                 Escolha uma das opções!!!
                 
-                [1 ]Disney Chanel
+                [1] Disney Chanel
                 
-                [2]Disney XD
+                [2] Disney XD
                 
-                [3]Disney Jr
+                [3] Disney Jr
+                
+                [*] Nenhum desses
                 
                 """;
         System.out.println(m);
@@ -26,7 +28,8 @@ public class Main {
             case "3":
                 System.out.println("Isso FOI infância");
                 break;
-
+            default:
+                System.out.println("Adeusss");
 
 
 
